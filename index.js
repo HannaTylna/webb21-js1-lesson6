@@ -14,7 +14,6 @@ class Animal{
 const dog = new Animal("Dog", 4);// classens instans
 console.log(dog.speech());
 console.log(dog.numberOfLegs());
-
 const cat = new Animal ("Cat", 4);
 console.log(cat.speech());
 console.log(cat.numberOfLegs());
