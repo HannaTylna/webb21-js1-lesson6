@@ -1,17 +1,17 @@
 
 class Animal{
     constructor(name, legs){
-        this.name = name;// viktigt att ha "this"
+        this.name = name;// important to write "this."
         this.legs = legs;
     }
-    speech(){//metod (funktion)
+    speech(){//method (funktion)
         return`${this.name} makes a noise`
     }
-    numberOfLegs(){//metod (funktion)
+    numberOfLegs(){//method (funktion)
         return `This animal has ${this.legs} legs`
     }
 }
-const dog = new Animal("Dog", 4);// classens instans
+const dog = new Animal("Dog", 4);// an instance of the class
 console.log(dog.speech());
 console.log(dog.numberOfLegs());
 const cat = new Animal ("Cat", 4);
