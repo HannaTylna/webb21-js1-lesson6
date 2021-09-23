@@ -4,10 +4,10 @@ class Animal{
         this.name = name;// important to write "this."
         this.legs = legs;
     }
-    speech(){//method (funktion)
+    speech(){//method 
         return`${this.name} makes a noise`
     }
-    numberOfLegs(){//method (funktion)
+    numberOfLegs(){//method
         return `This animal has ${this.legs} legs`
     }
 }
